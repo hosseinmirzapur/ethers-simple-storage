@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"fs-extra": "^11.1.1",
+		"solc": "^0.8.20",
+		"ethers": "^5.7"
+	},
+	"scripts": {
+		"cmp": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . ",
+		"dev": "node deploy.js"
+	},
+	"license": "MIT",
+	"type": "commonjs",
+	"devDependencies": {
+		"dotenv": "^16.1.3"
+	}
+}
